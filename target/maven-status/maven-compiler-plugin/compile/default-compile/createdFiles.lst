@@ -1,0 +1,8 @@
+ecommerce\selenium\pageobject\LoginPage.class
+ecommerce\selenium\pageobject\submitOrderpage.class
+ecommerce\selenium\pageobject\confirmPage.class
+ecommerce\selenium\abtractcomponents\abtractcomponent.class
+ecommerce\selenium\pageobject\cartPage.class
+ecommerce\selenium\pageobject\ProductCart.class
+ecommerce\resources\ExtentReporterNG.class
+ecommerce\selenium\pageobject\OrderPage.class

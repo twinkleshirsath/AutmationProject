@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-19T22:51:57 IST" name="Suite" finished-at="2024-10-19T22:52:58 IST" duration-ms="61626">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.validateLoginDetails()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" name="validateLoginDetails" class="Ecomerce.SeleniumDesign.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="Submittest.submitOrder(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" name="submitOrder" class="Ecomerce.SeleniumDesign.Submittest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-10-19T22:51:57 IST" name="Error validation  test" finished-at="2024-10-19T22:52:36 IST" duration-ms="39571">
+      <class name="Ecomerce.SeleniumDesign.ErrorValidation">
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" started-at="2024-10-19T22:51:57 IST" name="lunch_application" finished-at="2024-10-19T22:52:05 IST" duration-ms="8231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="validateCartProduct()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" started-at="2024-10-19T22:52:05 IST" name="validateCartProduct" finished-at="2024-10-19T22:52:22 IST" duration-ms="17120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartProduct -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" started-at="2024-10-19T22:52:23 IST" name="closedriver" finished-at="2024-10-19T22:52:23 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" started-at="2024-10-19T22:52:23 IST" name="lunch_application" finished-at="2024-10-19T22:52:31 IST" duration-ms="7211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="validateLoginDetails()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" started-at="2024-10-19T22:52:31 IST" name="validateLoginDetails" finished-at="2024-10-19T22:52:32 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginDetails -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@24c1b2d2]" started-at="2024-10-19T22:52:36 IST" name="closedriver" finished-at="2024-10-19T22:52:36 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ecomerce.SeleniumDesign.ErrorValidation -->
+    </test> <!-- Error validation  test -->
+    <test started-at="2024-10-19T22:51:57 IST" name="Submit Order test" finished-at="2024-10-19T22:52:58 IST" duration-ms="61626">
+      <class name="Ecomerce.SeleniumDesign.Submittest">
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:51:57 IST" name="lunch_application" finished-at="2024-10-19T22:52:04 IST" duration-ms="7286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:04 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-19T22:52:23 IST" duration-ms="18301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Twinkle@1404, email=twinkleshirsath@gmail.com, products=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:24 IST" name="closedriver" finished-at="2024-10-19T22:52:24 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:24 IST" name="lunch_application" finished-at="2024-10-19T22:52:30 IST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:30 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-19T22:52:35 IST" duration-ms="5001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Tanu@123, email=tanushreeshirsath@gmail.com, products=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:37 IST" name="closedriver" finished-at="2024-10-19T22:52:39 IST" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:39 IST" name="lunch_application" finished-at="2024-10-19T22:52:45 IST" duration-ms="5964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="orderhistory(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:45 IST" name="orderhistory" data-provider="getData" finished-at="2024-10-19T22:52:47 IST" depends-on-methods="Ecomerce.SeleniumDesign.Submittest.submitOrder" duration-ms="1864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Twinkle@1404, email=twinkleshirsath@gmail.com, products=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:48 IST" name="closedriver" finished-at="2024-10-19T22:52:48 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:48 IST" name="lunch_application" finished-at="2024-10-19T22:52:55 IST" duration-ms="7723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="orderhistory(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:55 IST" name="orderhistory" data-provider="getData" finished-at="2024-10-19T22:52:57 IST" depends-on-methods="Ecomerce.SeleniumDesign.Submittest.submitOrder" duration-ms="1753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Tanu@123, email=tanushreeshirsath@gmail.com, products=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@6f01b95f]" started-at="2024-10-19T22:52:58 IST" name="closedriver" finished-at="2024-10-19T22:52:58 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ecomerce.SeleniumDesign.Submittest -->
+    </test> <!-- Submit Order test -->
+  </suite> <!-- Suite -->
+</testng-results>

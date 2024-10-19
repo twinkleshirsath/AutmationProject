@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="8" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T23:12:06 IST" name="Suite" finished-at="2024-10-18T23:13:16 IST" duration-ms="70186">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.validateLoginDetails()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" name="validateLoginDetails" class="Ecomerce.SeleniumDesign.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="Submittest.submitOrder(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" name="submitOrder" class="Ecomerce.SeleniumDesign.Submittest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-10-18T23:12:06 IST" name="Error validation  test" finished-at="2024-10-18T23:12:57 IST" duration-ms="51543">
+      <class name="Ecomerce.SeleniumDesign.ErrorValidation">
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:06 IST" name="lunch_application" finished-at="2024-10-18T23:12:14 IST" duration-ms="8509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="validateCartProduct()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:14 IST" name="validateCartProduct" finished-at="2024-10-18T23:12:39 IST" duration-ms="24542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartProduct -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:39 IST" name="closedriver" finished-at="2024-10-18T23:12:39 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:39 IST" name="lunch_application" finished-at="2024-10-18T23:12:45 IST" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method retried="true" signature="validateLoginDetails()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:45 IST" name="validateLoginDetails" finished-at="2024-10-18T23:12:47 IST" duration-ms="1735" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Ecomerce.SeleniumDesign.ErrorValidation.validateLoginDetails(ErrorValidation.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginDetails -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:47 IST" name="closedriver" finished-at="2024-10-18T23:12:47 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:47 IST" name="lunch_application" finished-at="2024-10-18T23:12:54 IST" duration-ms="7154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="validateLoginDetails()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:54 IST" name="validateLoginDetails" finished-at="2024-10-18T23:12:56 IST" duration-ms="1533" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Ecomerce.SeleniumDesign.ErrorValidation.validateLoginDetails(ErrorValidation.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginDetails -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.ErrorValidation@1852a3ff]" started-at="2024-10-18T23:12:57 IST" name="closedriver" finished-at="2024-10-18T23:12:57 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ecomerce.SeleniumDesign.ErrorValidation -->
+    </test> <!-- Error validation  test -->
+    <test started-at="2024-10-18T23:12:06 IST" name="Submit Order test" finished-at="2024-10-18T23:13:16 IST" duration-ms="70186">
+      <class name="Ecomerce.SeleniumDesign.Submittest">
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:06 IST" name="lunch_application" finished-at="2024-10-18T23:12:12 IST" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:12 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-18T23:12:29 IST" duration-ms="16825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Twinkle@1404, email=twinkleshirsath@gmail.com, products=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:30 IST" name="closedriver" finished-at="2024-10-18T23:12:30 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:30 IST" name="lunch_application" finished-at="2024-10-18T23:12:39 IST" duration-ms="9413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:39 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-18T23:12:57 IST" duration-ms="17170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Tanu@123, email=tanushreeshirsath@gmail.com, products=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:57 IST" name="closedriver" finished-at="2024-10-18T23:12:57 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:12:57 IST" name="lunch_application" finished-at="2024-10-18T23:13:03 IST" duration-ms="5573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="orderhistory(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:13:03 IST" name="orderhistory" data-provider="getData" finished-at="2024-10-18T23:13:05 IST" depends-on-methods="Ecomerce.SeleniumDesign.Submittest.submitOrder" duration-ms="2075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Twinkle@1404, email=twinkleshirsath@gmail.com, products=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:13:05 IST" name="closedriver" finished-at="2024-10-18T23:13:06 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="lunch_application()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:13:06 IST" name="lunch_application" finished-at="2024-10-18T23:13:13 IST" duration-ms="7158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch_application -->
+        <test-method signature="orderhistory(java.util.HashMap)[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:13:13 IST" name="orderhistory" data-provider="getData" finished-at="2024-10-18T23:13:15 IST" depends-on-methods="Ecomerce.SeleniumDesign.Submittest.submitOrder" duration-ms="2404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Tanu@123, email=tanushreeshirsath@gmail.com, products=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:Ecomerce.SeleniumDesign.Submittest@2dcd168a]" started-at="2024-10-18T23:13:15 IST" name="closedriver" finished-at="2024-10-18T23:13:16 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ecomerce.SeleniumDesign.Submittest -->
+    </test> <!-- Submit Order test -->
+  </suite> <!-- Suite -->
+</testng-results>

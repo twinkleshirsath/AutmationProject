@@ -1,0 +1,9 @@
+Ecomerce\SeleniumDesign\ErrorValidation.class
+ecommerce\selenium\testcomponent\Listeners.class
+Ecomerce\SeleniumDesign\Standalonetest.class
+ecommerce\selenium\data\DataReader.class
+ecommerce\selenium\testcomponent\BaseTest.class
+ecommerce\selenium\testcomponent\Retry.class
+Ecomerce\SeleniumDesign\Submittest.class
+ecommerce\selenium\data\DataReader$1.class
+ecommerce\selenium\testcomponent\BaseTest$1.class
